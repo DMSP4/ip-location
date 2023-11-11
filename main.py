@@ -33,7 +33,7 @@ def get_info_by_ip(ip='127.0.0.1'):
 
 def main():
     previous = Figlet(font='slant')
-    print(previous.renderText('IP Address'))
+    print(previous.renderText('IP Location'))
     ip = input('Enter IP: ')
     get_info_by_ip(ip=ip)
 
